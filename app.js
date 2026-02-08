@@ -504,7 +504,7 @@ if (selection.value === "maths") {
      checkScienceScore()
      userScore.textContent = totalUserScore
 } else {
-     checkPhysicsScore
+     checkPhysicsScore()
      userScore.textContent = totalUserScore
 }
  
