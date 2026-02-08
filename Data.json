@@ -1,0 +1,460 @@
+{
+    "mathsQuestions": [
+
+   {
+    "id": 1,
+   "question" :"What is the sum of 2 and 8?",
+  "answer": "10",
+  "optionOne": "16",
+  "optionTwo": "6",
+  "optionThree": "10",
+  "optionFour": "4"
+   },
+
+ 
+    {
+      "id" : 2,
+      "question" :"What is the square root of 64?",
+      "optionOne": "32",
+      "optionTwo": "8",
+      "optionThree": "16",
+      "optionFour": "3",
+       "answer": "8"
+    },
+ 
+    {
+      "id" : 3,
+      "question" :"What kind of fraction is 7/3?",
+      "answer": "Improper Fraction",
+      "optionOne": "Improper Fraction",
+      "optionTwo": "Proper Fraction",
+      "optionThree": "Mixed Fraction",
+      "optionFour": "Balanced Fraction"
+
+    },
+ 
+    {
+      "id" : 4,
+      "question" :"What is pi?",
+      "answer": "3.142",
+      "optionOne": "3.124",
+      "optionTwo": "21.43",
+      "optionThree": "3.142",
+      "optionFour": "6.372"
+    },
+ 
+    {
+      "id" : 5,
+      "question" :"How many sides does a pentagon have?",
+      "answer": "5",
+      "optionOne": "10",
+      "optionTwo": "15",
+      "optionThree": "50",
+      "optionFour": "5"
+    },
+ 
+    {
+      "id" : 6,
+      "question" :"How many meters are there in 4 kilometers?",
+      "answer": "4000",
+      "optionOne": "400",
+      "optionTwo": "4000",
+      "optionThree": "100",
+      "optionFour": "3000"
+    },
+ 
+ 
+    {
+      "id" : 7,
+      "question" :"What is 10 % 10?",
+      "answer": "0",
+      "optionOne": "1",
+      "optionTwo": "10",
+      "optionThree": "0",
+      "optionFour": "100"
+
+
+    },
+ 
+ 
+    {
+      "id" : 8,
+      "question" :"Calculate the interest accumulated in 3 years from an initial loan of $5000 at a rate of 12% per annum?",
+      "answer": "$1000",
+      "optionOne": "$1000",
+      "optionTwo": "$1800",
+      "optionThree": "$106",
+      "optionFour": "$2100"
+    },
+ 
+ 
+    {
+      "id" : 9,
+      "question" :"What is the area of a circle with a diamter of 16m",
+      "answer": "16",
+      "optionOne": "16",
+      "optionTwo": "66",
+      "optionThree": "201",
+      "optionFour": "23"
+    },
+ 
+ 
+    {
+      "id" : 10,
+      "question" :"How many sides does a decagon have?",
+      "answer": "10",
+      "optionOne": "20",
+      "optionTwo": "10",
+      "optionThree": "50",
+      "optionFour": "100"
+    }
+ 
+ 
+ 
+  ],
+   
+
+"englishQuestions": [
+  
+ {
+   "id" : 1,
+   "question" :"What is the Antonym of the word 'Tall'?",
+   "answer": "Short",
+   "optionOne": "Large",
+   "optionTwo": "Narrow",
+   "optionThree": "Long",
+   "optionFour": "Short"
+   },
+
+   {
+   "id" : 2,
+   "question" :"What is the Antonym of the word 'Bold'?",
+   "answer": "Shy",
+   "optionOne": "Shy",
+   "optionTwo": "Audacious",
+   "optionThree": "Out-Spoken",
+   "optionFour": "Loud"
+   },
+
+   {
+    "id" : 3,
+   "question" :"What is the meaning of the word 'Fatigue'?",
+   "answer": "Tired",
+   "optionOne": "Hungry",
+   "optionTwo": "Emotional",
+   "optionThree": "Tired",
+   "optionFour": "Boring"
+   },
+
+   {
+    "id" : 4,
+   "question" :"Winter and '?'?",
+   "answer": "Summer",
+   "optionOne": "Drought",
+   "optionTwo": "Summer",
+   "optionThree": "Autmn",
+   "optionFour": "Sun"
+   },
+
+
+   {
+    "id" : 5,
+   "question" :"Winter and '__'?",
+   "answer": "Summer",
+   "optionOne": "Drought",
+   "optionTwo": "Summer",
+   "optionThree": "Autmn",
+   "optionFour": "Sun"
+   },
+
+   {
+    "id" : 6,
+   "question" :"Good and '__'?",
+   "answer": "Bad",
+   "optionOne": "Nice",
+   "optionTwo": "Bad",
+   "optionThree": "Jovial",
+   "optionFour": "Happy"
+   },
+
+   {
+    "id" : 7,
+   "question" :"Mom and '__'?",
+   "answer": "Dad",
+   "optionOne": "Dad",
+   "optionTwo": "Grandmother",
+   "optionThree": "Nephew",
+   "optionFour": "Child"
+   },
+
+   {
+    "id" : 8,
+   "question" :"What is the opposite of 'Heavy'?",
+   "answer": "Light",
+   "optionOne": "Light",
+   "optionTwo": "Small",
+   "optionThree": "Thin",
+   "optionFour": "Big"
+   },
+
+   {
+    "id" : 9,
+   "question" :"'The boy is as brave as a lion', what figure of speech is this?",
+   "answer": "Simile",
+   "optionOne": "Metaphor",
+   "optionTwo": "Analogy",
+   "optionThree": "Simile",
+   "optionFour": "Hyperbole"
+   },
+
+   {
+    "id" : 10,
+   "question" :"What is another word for ''Retrospect'?",
+   "answer": "Hindsight",
+   "optionOne": "Foresight",
+   "optionTwo": "Think",
+   "optionThree": "Analyze",
+   "optionFour": "Hindsight"
+   }
+
+
+
+],
+
+"scienceQuestions" :  [
+   {
+   "id" : 1,
+   "question" :"How many bones are there in the Adult human body?",
+   "answer": "206",
+   "optionOne": "400",
+   "optionTwo": "206",
+   "optionThree": "60",
+   "optionFour": "302"
+},
+
+{  "id" : 2,
+   "question" :"What is the largest organ in the human body?",
+   "answer": "Skin",
+   "optionOne": "Liver",
+   "optionTwo": "Kidney",
+   "optionThree": "Heart",
+   "optionFour": "Skin"
+  
+  },
+
+
+  {
+   "id" : 3,
+   "question" :"What is the smallest unit of life?",
+   "answer": "Cell",
+   "optionOne": "Cell",
+   "optionTwo": "Molecule",
+   "optionThree": "DNA",
+   "optionFour": "Atom"
+  
+  },
+
+  {
+   "id" : 4,
+   "question" :"What element is most abundant in the earths atmosphere?",
+   "answer": "Nitrogen",
+   "optionOne": "Oxygen",
+   "optionTwo": "Carbondioxide",
+   "optionThree": "Nitrogen",
+   "optionFour": "Helium"
+  
+  },
+
+  {
+   "id" : 5,
+   "question" :"How many chambers make up the heart?",
+   "answer": "4",
+   "optionOne": "2",
+   "optionTwo": "1",
+   "optionThree": "4",
+   "optionFour": "3"
+  
+  },
+
+  {
+   "id" : 6,
+   "question" :"Which planet is the hottest?",
+   "answer": "Mercury",
+   "optionOne": "Mars",
+   "optionTwo": "Earth",
+   "optionThree": "Africa",
+   "optionFour": "Mercury"
+  
+  },
+
+  {
+   "id" : 7,
+   "question" :"What organelle is known as the cells 'powerhouse'?",
+   "answer": "Mitochondria",
+   "optionOne": "Mitochondria",
+   "optionTwo": "Endoplasmic Reticulum",
+   "optionThree": "Nucleus",
+   "optionFour": "Cell Membrane"
+  
+  },
+
+  {
+   "id" : 8,
+   "question" :"Which planet is known as the 'red' planet?",
+   "answer": "Mars",
+   "optionOne": "Mercury",
+   "optionTwo": "Venus",
+   "optionThree": "Mars",
+   "optionFour": "Jupiter"
+  
+  },
+
+  {
+   "id" : 9,
+   "question" :"What element has the atomic number '11'?",
+   "answer": "Na",
+   "optionOne": "Mg",
+   "optionTwo": "He",
+   "optionThree": "Na",
+   "optionFour": "K"
+  
+  },
+
+  {
+   "id" : 10,
+   "question" :"What is the hardest natural substance on earth ?",
+   "answer": "Diamond",
+   "optionOne": "Gold",
+   "optionTwo": "Silver",
+   "optionThree": "Titanium",
+   "optionFour": "Diamond"
+  
+  }
+
+],
+
+"physicsQuestions" : [
+
+  {
+   "id" : 1,
+   "question" :"What is the only metal that is liquid at room temperature ?",
+   "answer": "Mercury",
+   "optionOne": "Mercury",
+   "optionTwo": "Silver",
+   "optionThree": "Lead",
+   "optionFour": "Gold"
+  
+  },
+
+  
+  {
+   "id" : 2,
+   "question" :"What is the unit of force in physics?",
+   "answer": "Newton",
+   "optionOne": "Force",
+   "optionTwo": "Meters",
+   "optionThree": "Newton",
+   "optionFour": "Joules"
+  
+  },
+
+
+  {
+   "id" : 3,
+   "question" :"How many color are there in a rainbow ?",
+   "answer": "7",
+   "optionOne": "7",
+   "optionTwo": "9",
+   "optionThree": "5",
+   "optionFour": "6"
+  
+  },
+
+  
+  {
+   "id" : 4,
+   "question" :"What instrument is used to measure temperature?",
+   "answer": "Thermometer",
+   "optionOne": "Mercury",
+   "optionTwo": "Thermometer",
+   "optionThree": "Gyroscope",
+   "optionFour": "Sthethoscope"
+  
+  },
+
+  
+  {
+   "id" : 5,
+   "question" :"What force opposes motion between two surfaces in contact ?",
+   "answer": "Friction",
+   "optionOne": "Centrifugal Force",
+   "optionTwo": "Electromagnetic Force",
+   "optionThree": "Friction",
+   "optionFour": "Centipetal Force"
+  
+  },
+
+
+  
+  {
+   "id" : 6,
+   "question" :"What is the unit of speed in physics",
+   "answer": "M/s",
+   "optionOne": "N",
+   "optionTwo": "J",
+   "optionThree": "M/s",
+   "optionFour": "Nm"
+  
+  },
+
+  
+  {
+   "id" : 7,
+   "question" :"If a ball of mass 10kg falls from a height of 4m, calculate the energy?",
+   "answer": "400Nm",
+   "optionOne": "40Nm",
+   "optionTwo": "4000Nm",
+   "optionThree": "400Nm",
+   "optionFour": "100Nm"
+  
+  },
+  
+  {
+   "id" : 8,
+   "question" :"If a car is moving with a speed of 60m/s, how far will it go in 6 minutes ?",
+   "answer": "21.6km",
+   "optionOne": "20km",
+   "optionTwo": "21.6km",
+   "optionThree": "360m",
+   "optionFour": "36km"
+  
+  },
+  
+  {
+   "id" : 9,
+   "question" :"What is the unit of current in physics ?",
+   "answer": "Ampere",
+   "optionOne": "Volts",
+   "optionTwo": "Joules",
+   "optionThree": "Ampere",
+   "optionFour": "Candela"
+  
+  },
+
+  
+  {
+   "id" : 10,
+   "question" :"What is the 0deg celsius in K ?",
+   "answer": "-273K",
+   "optionOne": "-273K",
+   "optionTwo": "0K",
+   "optionThree": "-12k",
+   "optionFour": "-270k"
+  
+  }
+
+]
+
+}
+
+  

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Teaser</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+            <img src="assets/images/logo-small.svg" alt="Brain teaser logo">
+            <h3>Brain Teaser</h3>
+   </header>
+
+    <nav class="navbar">
+        <h4>Name : <span id="display-name"></span></h4>
+        <h4>Timer : <span id="time"> 00:00</span></h4>
+    </nav>
+
+    <main class="main">
+        <section class="form-container">
+        <h1>Welcome to Brain Teaser</h1>
+    <h3> Input your details </h3>
+    <form action="signup" class="form">
+    <label for="Name">Full Name</label>
+    <input type="text" placeholder="John Doe" class="name-input">
+
+    <label for="Email">Email Address</label>
+    <input type="email" placeholder="johndoe@gmail.com" class="email-input">
+
+    
+    <select name="Courses" id="courses">
+    <option value="choose">Choose a Course</option>
+    <option value="english">English</option>
+    <option value="maths">Maths</option>
+    <option value="science">Science</option>
+    <option value="physics">Physics</option>
+    </select> 
+
+ 
+    <button class="start btn">Start</button>
+    </form>
+</section>
+
+
+
+<section class="question-section">
+<div class="question-container">
+<h3>Question</h3>
+<p id="question"></p>
+<div class="multi-choice">
+<span role= "button" data-value="" class="opt one"></span> <span role="button" data-value="" class= "opt two"></span>
+<span role="button" data-value="" class="opt three"></span> <span role="button" data-value="" class="opt four"></span>
+</div>
+</div>    
+
+<div class="btn-container">
+    
+    <button class="next btn">Next</button>
+    <button class="submit btn">Submit</button>
+    <button class="reset btn">Restart</button>
+</div>
+    </section>
+
+
+
+
+<sction class="score-section">
+    <div class="score-container">
+    <img src="assets/images/icon-completed.svg" alt="CheckMark image">
+    <h2>Quiz Complete</h2>
+
+
+    <div class="score">
+    <h1> <span id="user-score"></span> / <span id="total-questions"></span>   </h1>
+    </div>
+
+
+   
+    </div>
+    <div class="score-btn-container">
+    <button class="new-game btn">New Game</button>
+    </div>
+    </section>
+
+</main>
+</body>
+<script src="app.js"></script>
+</html>

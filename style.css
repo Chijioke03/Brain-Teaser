@@ -1,0 +1,372 @@
+@font-face {
+    font-family: Sora;
+    src: url(assets/fonts/Sora/Sora-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: Sora-btn;
+    src: url(assets/fonts/Sora/static/Sora-SemiBold.ttf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --FONT:'Trebuchet MS';
+
+}
+
+body {
+    background: url(assets/images/bg-sidebar-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+   background-blend-mode: overlay;
+   background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    font-family: Sora;
+    
+}
+
+
+.header  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+.header h3 {
+    color: #f5f5f5;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: hsla(256, 81%, 33%, 0.4);
+    color: #f5f5f5;
+    
+}
+
+
+/* MAIN CONTAINER STYLING */
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+   
+}
+
+/* FORM SECTION */
+.form-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    visibility:visible;
+    grid-area: 1/1;
+   
+}
+
+.form-visible {
+    visibility: hidden;
+    z-index: -10000;
+}
+
+.form {
+   
+padding: 20px;
+   width: 500px;
+}
+
+.form-container h1,
+.form-container h3 {
+    color: #f5f5f5;
+    margin-bottom: 10px;
+}
+
+.form label,
+.form input,
+.form select {
+    display: block;
+    width: 100%;
+    font-family: var(--FONT);
+    
+   
+}
+
+.form label {
+    font-weight: bold;
+    color: #f5f5f5;
+
+}
+
+.form input {
+    padding: 8px 20px;
+    border: 2px solid hsla(256, 81%, 33%);
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#courses {
+    padding: 8px 5px;
+    border: 2px solid  hsla(256, 81%, 33%);
+    margin-right:20px ;
+    border-radius: 10px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(258, 81%, 23%);
+    color: white;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+    font-family: Sora-btn;
+}
+
+.start {
+    display: flex;
+    margin: 20px auto;
+
+}
+
+.start:hover {
+    background-color: hsl(120, 90%, 45%);
+    transform: scale(1.2);
+    border: none; 
+}
+
+.reset:hover {
+  background-color: hsl(0, 90%, 55%);
+    border: none; 
+}
+
+.submit:hover {
+  background-color: hsl(61, 90%, 45%);
+    border: none; 
+}
+
+/* QUESTION SECTION CONTAINER */ 
+.question-section {
+visibility: hidden;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+grid-area: 1/1;
+padding: 10px;
+font-family: Sora;
+   
+}
+
+
+
+.qs-visible {
+   visibility: visible;
+   z-index: 10000;
+}
+
+.question-container {
+     height: 45vh;
+  
+
+
+}
+
+.question-container h3{
+ text-align: center;
+ color: #f5f5f5;
+    
+}
+
+#question {
+   color: #f5f5f5;
+}
+
+.multi-choice {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.multi-choice span {
+    border: 2px solid ;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: border-color 0.5s ease;
+    font-family: Sora-btn;
+    background-color: #f5f5f5;
+}
+
+.multi-choice span:hover {
+   border-color: hsla(256, 81%, 33%);
+   cursor: pointer;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap:20px ;
+    margin-top: 1.5rem;
+}
+
+
+
+/* SCOREBOARD PAGE */
+.score-section {
+    visibility: hidden;
+    grid-area: 1/1;
+   background: url(assets/images/pattern-star-1.svg);
+    background-position: left;
+    background-repeat: no-repeat;
+
+}
+
+.show-score {
+    visibility: visible;
+}
+
+.score-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+   
+}
+
+
+.score-container h2 {
+    color: #f5f5f5;
+    margin-top: 10px;
+}
+
+.score h1 {
+    color: #f5f5f5;
+    margin-top: 2rem;
+}
+
+
+.score-btn-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+
+.score-btn-container .new-game:hover {
+    background-color: hsl(0, 90%, 55%);
+    border: none; 
+}
+
+
+@media screen and (max-width: 480px) {
+   
+body {
+    background: url(assets/images/bg-sidebar-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-size: cover;
+    height: 100vh;
+    font-family: Sora;
+    
+    }
+
+.main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+/* FORM SECTION */
+.form-container {
+    display: block;
+    visibility: visible;
+    grid-area: 1/1;
+   
+}
+
+.form-visible {
+    visibility: hidden;
+    z-index: -10000;
+}
+
+.form {  
+    display: block;
+   padding: 10px;
+   width: 100%;
+}
+
+.form-container h1 {
+    color: #f5f5f5;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.form-container h3 {
+    color: #f5f5f5;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+
+.form label,
+.form input,
+.form select {
+    display: block;
+    width: 100%;
+    font-family: Sora;
+    
+   
+}
+
+
+
+.question-section {
+   visibility: hidden;
+  display: block;
+    grid-area: 1/1;
+    padding: 10px;
+    font-family: Sora;
+   
+}
+
+.qs-visible {
+   visibility: visible;
+   z-index: 10000;
+}
+
+.question-container {
+     height: 45vh;
+
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+}
