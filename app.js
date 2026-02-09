@@ -41,8 +41,6 @@ async function fetchQuestion() {
      englishArray = data.englishQuestions
      scienceArray = data.scienceQuestions
      physicsArray = data.physicsQuestions
-     
-      
 
     }
 
@@ -335,6 +333,8 @@ if (sessionStorage.getItem("Question 10") === englishArray[9].answer ) {
 } else {
 
 }
+
+    totalUserScore = scoreCount
 }
 
 
@@ -398,6 +398,8 @@ if (sessionStorage.getItem("Question 10") === scienceArray[9].answer ) {
  } else {
       
  }
+
+    totalUserScore = scoreCount
 }
 
 
@@ -460,6 +462,8 @@ if (sessionStorage.getItem("Question 9") === physicsArray[8].answer ) {
  } else{
 
  }
+
+    totalUserScore = scoreCount
 }
 
 
@@ -496,24 +500,25 @@ scoreSection.classList.add("show-score")
 
 if (selection.value === "maths") {
      checkMathScore()
-     userScore.textContent = totalUserScore
+    
 } else if (selection.value === "english" ) {
   checkEnglishScore()
-  userScore.textContent = totalUserScore
+ 
 } else if (selection.value === "science") {
      checkScienceScore()
-     userScore.textContent = totalUserScore
+     
 } else {
      checkPhysicsScore()
-     userScore.textContent = totalUserScore
+     
 }
  
-
+userScore.textContent = totalUserScore
 })
 
 // RESET EVENT LISTENER
 resetBtn.addEventListener("click", ()=> {
 stopTimer()
+currentIndex = 0
 userName.textContent = ""
 formSection.classList.remove("form-visible")
 questionPage.classList.remove("qs-visible")
@@ -527,8 +532,10 @@ questionPage.classList.remove("qs-visible")
 newGameBtn.addEventListener("click", ()=> {
 stopTimer()
 userName.textContent = ""
+currentIndex = 0
 questionPage.classList.remove("qs-visible")
 scoreSection.classList.remove("show-score")
 formSection.classList.remove("form-visible")
 sessionStorage.clear()
+
 })
