@@ -15,11 +15,12 @@
     {
       "id" : 2,
       "question" :"What is the square root of 64?",
+      "answer" : "8",
       "optionOne": "32",
       "optionTwo": "8",
       "optionThree": "16",
-      "optionFour": "3",
-       "answer": "8"
+      "optionFour": "3"
+       
     },
  
     {
@@ -80,7 +81,7 @@
     {
       "id" : 8,
       "question" :"Calculate the interest accumulated in 3 years from an initial loan of $5000 at a rate of 12% per annum?",
-      "answer": "$1000",
+      "answer": "$1800",
       "optionOne": "$1000",
       "optionTwo": "$1800",
       "optionThree": "$106",
@@ -91,7 +92,7 @@
     {
       "id" : 9,
       "question" :"What is the area of a circle with a diamter of 16m",
-      "answer": "16",
+      "answer": "201",
       "optionOne": "16",
       "optionTwo": "66",
       "optionThree": "201",
